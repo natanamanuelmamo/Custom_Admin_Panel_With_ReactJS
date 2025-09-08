@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Global background and reset styles */
+html, body, #root {
+  @apply bg-[#2B2738];
+  margin: 0;
+  padding: 0;
+  /* height: 100%; */
+  /* width: 100%;
+  overflow-x: hidden; */
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
