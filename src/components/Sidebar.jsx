@@ -27,7 +27,7 @@ const Sidebar = () => {
     <div className="w-64 min-h-screen bg-[#2C234D] flex flex-col justify-between">
       {/* Top Section */}
       <div>
-        <div className="text-3xl text-white font-bold px-6 py-6">Admin</div>
+        <div className="text-3xl text-white font-bold px-6 py-6">AdmPan</div>
 
         <ul className="space-y-1 px-4">
           {/* Home toggle (with dropdown) */}
@@ -86,12 +86,12 @@ const Sidebar = () => {
           </li>
           <li
             className={`${
-              isActive("/advertisers") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
+              isActive("/page1") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
-            onClick={() => navigate("/advertisers")}
+            onClick={() => navigate("/page1")}
           >
             <FaUserTie className="mr-3" />
-            My Option 1
+            Sample Page 1
           </li>
           <li
             className={`${
