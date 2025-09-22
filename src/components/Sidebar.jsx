@@ -95,12 +95,12 @@ const Sidebar = () => {
           </li>
           <li
             className={`${
-              isActive("/drivers") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
+              isActive("/page2") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
-            onClick={() => navigate("/drivers")}
+            onClick={() => navigate("/page2")}
           >
             <FaBullhorn className="mr-3" />
-            My Option 2
+            Sample Page 2
           </li>
           <li
             className={`${
