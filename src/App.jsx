@@ -3,6 +3,7 @@ import SignIn from "./pages/Auth/SignIn";
 import SignUp from "./pages/Auth/SignUp";
 import SampleFirstPage from "./pages/Categories/SampleFirstPage";
 import SampleSecondPage from "./pages/Categories/SampleSecondPage";
+import Revenue from "./pages/Categories/Revenue";
 import DashboardLayout from "./pages/Dashboard/HomeDashboard";
 import Analytics from "./pages/Analytics/Analytics";
 import Notifications from "./pages/Notifications/Notifications";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/page1" element={<SampleFirstPage />} />
         <Route path="/page2" element={<SampleSecondPage />} />
+        <Route path="/sample_chart" element={<Revenue />} />
         <Route path="/dashboard" element={<DashboardLayout />} />
         <Route path="/Analytics" element={<Analytics />} />
         <Route path="/notifications" element={<Notifications />} />

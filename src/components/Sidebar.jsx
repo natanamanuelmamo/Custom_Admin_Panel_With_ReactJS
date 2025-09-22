@@ -102,7 +102,7 @@ const Sidebar = () => {
             <FaBullhorn className="mr-3" />
             Sample Page 2
           </li>
-          <li
+          {/* <li
             className={`${
               isActive("/campaigns") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
@@ -110,15 +110,15 @@ const Sidebar = () => {
           >
             <FaBullhorn className="mr-3" />
             My Option 3
-          </li>
+          </li> */}
           <li
             className={`${
-              isActive("/revenue") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
+              isActive("/sample_chart") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
-            onClick={() => navigate("/revenue")}
+            onClick={() => navigate("/sample_chart")}
           >
             <FaMoneyBill className="mr-3" />
-            My Option 4
+            Sample Charts
           </li>
 
           <li
