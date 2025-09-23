@@ -123,15 +123,15 @@ const Sidebar = () => {
 
           <li
             className={`${
-              isActive("/create_message") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
+              isActive("/sample_form") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
-            onClick={() => navigate("/create_message")}
+            onClick={() => navigate("/sample_form")}
           >
             <FaBroadcastTower className="mr-3" />
-            My Option 5
+            Sample Form
           </li>
 
-          <li
+          {/* <li
             className={`${
               isActive("/logs") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
             } flex items-center px-4 py-2 rounded-lg cursor-pointer`}
@@ -139,7 +139,8 @@ const Sidebar = () => {
           >
             <FaShieldAlt className="mr-3" />
             My Option 6
-          </li>
+          </li> */}
+          
           <li
             className={`${
               isActive("/settings") ? "bg-[#A98BFE] text-white" : "text-white hover:bg-[#3A2D63]"
