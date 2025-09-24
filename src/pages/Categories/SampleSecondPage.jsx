@@ -150,12 +150,12 @@ const SampleSecondPage = () => {
                         header: "Status",
                         render: (row) => (
                           <span 
-                            className={`px-3 py-1 rounded-full text-white text-xs font-semibold ${
+                            className={`px-3 py-1 rounded-full bg-gray-200 text-xs font-semibold ${
                               row.status === "Active"
-                                ? "bg-green-600"
+                                ? "text-green-600"
                                 : row.status === "Pending"
-                                ? "bg-purple-600"
-                                : "bg-red-600"
+                                ? "text-yellow-600"
+                                : "text-red-600"
                             }`}
                           >
                             {row.status}

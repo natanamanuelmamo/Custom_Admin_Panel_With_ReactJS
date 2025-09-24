@@ -5,7 +5,7 @@ import Card from '../../components/StatsCard';
 import { Table, TableTwo } from "../../components/Table";
 import RevenueCharts from '../../components/Chart';
 
-const advertiserPayments = Array(8).fill({
+const sampleDataOne = Array(8).fill({
   name: "Tiger Nixon",
   campaign: "Summer Promo",
   package: "Morning Rush",
@@ -17,7 +17,7 @@ const advertiserPayments = Array(8).fill({
   profile_pic: "/profile.jpg"
 });
 
-const driverEarningsPayouts = Array(7).fill({
+const sampleDataTwo = Array(7).fill({
   name: "Garret Winters",
   hours_displayed: "30 hr",
   monthly_earnings: "15,000 ETB",
